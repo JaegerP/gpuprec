@@ -12,9 +12,9 @@ GCC		= g++
 
 # Common definition
 OPT		= -O3
-INC		= -I$(NVCC_HOME)/include -I../gqd -I/home/xuntao/lumian/local/include
+INC		= -I$(NVCC_HOME)/include -I../gqd 
 DEF		=
-LIB		= -fopenmp -L/usr/local/cuda/lib64 -L/home/xuntao/lumian/local/lib -lqd -lcuda -lcudart
+LIB		= -fopenmp -L/usr/local/cuda/lib64 -lqd -lcuda -lcudart
 
 # Output objects
 BENCH		= benchmark
